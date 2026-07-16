@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61cc734f6c74de545a16a4e18b76a55f, type: 3}
+  m_Name: TrackPieceCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleTrackBuilder.TrackPieceCatalog
+  entries:
+  - id: track_straight_short
+    category: 0
+    prefab: {fileID: 2927259199662858590, guid: 1060f28bab45ab94eb490830df68466e, type: 3}
+  - id: track_curve_left_mesh
+    category: 0
+    prefab: {fileID: 7469099903034017270, guid: e5ade76ec6dcf6140937231635f92c06, type: 3}
+  - id: track_curve_right_mesh
+    category: 0
+    prefab: {fileID: 7469099903034017270, guid: e5ade76ec6dcf6140937231635f92c06, type: 3}
+  - id: prop_finisharch
+    category: 1
+    prefab: {fileID: 1518565137030333058, guid: c7bebf8ce7ad3264abbb7ed6a6953153, type: 3}
+  - id: prop_fireplug
+    category: 1
+    prefab: {fileID: 579533310182082935, guid: b6e6982b772a1bc46b88d93db630bee4, type: 3}
+  - id: track_straight_long
+    category: 0
+    prefab: {fileID: 950377666402935899, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
+  - id: track_start_finish
+    category: 0
+    prefab: {fileID: 8049907621329533821, guid: 419b5557461398443a4b99d9496015fc, type: 3}
+  - id: track_curve_90
+    category: 0
+    prefab: {fileID: 7469099903034017270, guid: e5ade76ec6dcf6140937231635f92c06, type: 3}
+  - id: prop_arch
+    category: 1
+    prefab: {fileID: 1890588548742467344, guid: 63f7e3a5ea486a9438b4cd3142c7dc92, type: 3}
+  - id: prop_cone
+    category: 1
+    prefab: {fileID: 579533310182082935, guid: b6e6982b772a1bc46b88d93db630bee4, type: 3}
+  - id: prop_barrier
+    category: 1
+    prefab: {fileID: 8552901019017533310, guid: f26c4802677a5194091851e89ded1f3a, type: 3}
+  - id: prop_flag
+    category: 1
+    prefab: {fileID: 5786231827547346392, guid: 2e1e65078fb46104b990555c32488a27, type: 3}
+  - id: prop_traffic_light
+    category: 1
+    prefab: {fileID: 5956726397970703479, guid: 99c5fe0ab7d0f8045a119a49343475d2, type: 3}
+  - id: prop_tribune
+    category: 1
+    prefab: {fileID: 6257927510389581197, guid: d83bf5421fa587548b541193382273ea, type: 3}
+  - id: prop_tire
+    category: 1
+    prefab: {fileID: 4373798459345739174, guid: 0a9f73a18c612c34a9773c0dd0fae0ab, type: 3}

@@ -1,0 +1,96 @@
+{
+    "schemaVersion": 1,
+    "layoutName": "student_test_track",
+    "pieces": [
+        {
+            "pieceId": "track_straight_short",
+            "position": {
+                "x": 30.0,
+                "y": 0.0,
+                "z": 30.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "track_straight_short",
+            "position": {
+                "x": 30.0,
+                "y": 0.0,
+                "z": 44.29999923706055
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "track_curve_90",
+            "position": {
+                "x": 30.0,
+                "y": 0.0,
+                "z": 15.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "track_curve_90",
+            "position": {
+                "x": 15.0,
+                "y": 0.0,
+                "z": 15.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "track_straight_long",
+            "position": {
+                "x": 15.0,
+                "y": 0.0,
+                "z": 36.900001525878909
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ]
+}

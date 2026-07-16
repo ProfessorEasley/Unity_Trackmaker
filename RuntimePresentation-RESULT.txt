@@ -1,0 +1,8 @@
+RUNTIME PRESENTATION SEQUENCE: PASSED
+Placed: 5 track pieces + 4 props
+Saved: timestamped JSON pair
+Cleared: 0 track + 0 props
+Reloaded: 5 track pieces + 4 props
+Result scene: Assets/TrackLayoutTool/Demo/RuntimeAuthoringPresentationResult.unity
+Track JSON: C:/Users/prema/AppData/LocalLow/DefaultCompany/TrackLayoutToolDemo\TrackBuilderSaves\presentation_runtime_demo_20260630_144336_745.track.json
+Prop JSON: C:/Users/prema/AppData/LocalLow/DefaultCompany/TrackLayoutToolDemo\TrackBuilderSaves\presentation_runtime_demo_20260630_144336_745.props.json

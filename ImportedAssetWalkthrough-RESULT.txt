@@ -1,0 +1,9 @@
+IMPORTED ASSET WALKTHROUGH: PASSED
+Track records saved/reloaded: 9
+Prop records saved/reloaded: 8
+Runtime records reconstructed: 17
+Catalog mappings available: 15
+Editor scene: Assets/TrackLayoutTool/Demo/ImportedAssetWalkthrough.unity
+Runtime scene: Assets/TrackLayoutTool/Demo/ImportedAssetRuntimeDemo.unity
+Track JSON: Assets/TrackLayoutTool/Layouts/imported_pack_walkthrough.track.json
+Prop JSON: Assets/TrackLayoutTool/Layouts/imported_pack_walkthrough.props.json

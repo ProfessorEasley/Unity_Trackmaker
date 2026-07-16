@@ -1,0 +1,205 @@
+{
+    "schemaVersion": 1,
+    "layoutName": "test_track",
+    "trackFile": "test_track.track.json",
+    "props": [
+        {
+            "pieceId": "prop_finisharch",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 2.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_cone",
+            "position": {
+                "x": -5.0,
+                "y": 0.0,
+                "z": 12.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_cone",
+            "position": {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 12.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_barrier",
+            "position": {
+                "x": -7.0,
+                "y": 0.0,
+                "z": 27.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_flag",
+            "position": {
+                "x": 7.0,
+                "y": 0.0,
+                "z": 32.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_tribune",
+            "position": {
+                "x": 20.0,
+                "y": 0.0,
+                "z": 55.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_traffic_light",
+            "position": {
+                "x": 38.0,
+                "y": 0.0,
+                "z": 51.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_tire",
+            "position": {
+                "x": 52.0,
+                "y": 0.0,
+                "z": 28.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_arch",
+            "position": {
+                "x": 15.0,
+                "y": 0.0,
+                "z": 15.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_traffic_light",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 30.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 179.99993896484376,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "prop_traffic_light",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 15.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 179.99993896484376,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "schemaVersion": 1,
+    "layoutName": "test",
+    "pieces": [
+        {
+            "pieceId": "arch_for_banner_free_obs",
+            "position": {
+                "x": 30.0,
+                "y": -0.12000059336423874,
+                "z": 45.0
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "tribune_free_obs",
+            "position": {
+                "x": 30.0,
+                "y": -0.12000112980604172,
+                "z": 38.970001220703128
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "pieceId": "cone_free_obs",
+            "position": {
+                "x": 17.559999465942384,
+                "y": -0.11999987810850144,
+                "z": 36.54999923706055
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ]
+}

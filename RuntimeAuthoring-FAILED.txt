@@ -1,0 +1,5 @@
+System.InvalidOperationException: This cannot be used during play mode, please use SceneManager.LoadScene()/SceneManager.LoadSceneAsync() instead.
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.OpenScene_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEditor.SceneManagement.OpenSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.OpenScene (System.String scenePath, UnityEditor.SceneManagement.OpenSceneMode mode) [0x0002a] in <49fcb209645d4ccfb3e373da32345d37>:0 
+  at UnityEditor.SceneManagement.EditorSceneManager.OpenScene (System.String scenePath) [0x00001] in <49fcb209645d4ccfb3e373da32345d37>:0 
+  at SimpleTrackBuilder.Editor.RuntimeAuthoringSetup.ConfigureAndValidate () [0x00000] in C:\Users\prema\Downloads\TrackLayoutToolDemo\Assets\TrackLayoutTool\Editor\RuntimeAuthoringSetup.cs:28 

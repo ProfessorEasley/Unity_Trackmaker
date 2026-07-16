@@ -1,0 +1,34 @@
+* text=auto
+
+# Repo control files
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Unity text assets
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.asset text eol=lf
+*.cs text eol=lf
+*.json text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.prefab text eol=lf
+*.shader text eol=lf
+*.txt text eol=lf
+*.unity text eol=lf
+*.uss text eol=lf
+*.uxml text eol=lf
+*.md text eol=lf
+
+# Binary assets
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.dll binary
+*.exe binary

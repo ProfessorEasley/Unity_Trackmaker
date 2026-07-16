@@ -1,0 +1,4 @@
+System.InvalidOperationException: This cannot be used during play mode, please use SceneManager.CreateScene() instead.
+  at (wrapper managed-to-native) UnityEditor.SceneManagement.EditorSceneManager.NewScene_Injected(UnityEditor.SceneManagement.NewSceneSetup,UnityEditor.SceneManagement.NewSceneMode,UnityEngine.SceneManagement.Scene&)
+  at UnityEditor.SceneManagement.EditorSceneManager.NewScene (UnityEditor.SceneManagement.NewSceneSetup setup, UnityEditor.SceneManagement.NewSceneMode mode) [0x00000] in <49fcb209645d4ccfb3e373da32345d37>:0 
+  at SimpleTrackBuilder.Editor.ImportedAssetWalkthrough.Run () [0x0002c] in C:\Users\prema\Downloads\TrackLayoutToolDemo\Assets\TrackLayoutTool\Editor\ImportedAssetWalkthrough.cs:63 

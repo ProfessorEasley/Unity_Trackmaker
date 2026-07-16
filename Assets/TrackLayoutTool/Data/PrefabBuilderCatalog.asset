@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61cc734f6c74de545a16a4e18b76a55f, type: 3}
+  m_Name: PrefabBuilderCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleTrackBuilder.TrackPieceCatalog
+  entries:
+  - id: lawn_plane_15m_free_obs
+    category: 0
+    prefab: {fileID: 5678493142902998330, guid: d9ab2401bf6839744952d1947386d8b3, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_corner_90d_type_01_15x15m_free_obs
+    category: 0
+    prefab: {fileID: 5539833070294148113, guid: dd0831f60632baf4492b92858d493b29, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_corner_90d_type_01_15x15m_quad_free_obs
+    category: 0
+    prefab: {fileID: 7469099903034017270, guid: e5ade76ec6dcf6140937231635f92c06, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_corner_90d_type_01_30x30m_free_obs
+    category: 0
+    prefab: {fileID: 6735325377289900391, guid: 233c6ac239f5f764f802f62bea56397e, type: 3}
+    gridOverride: 30
+    heightOverride: 0.1
+    tiltOverride: 0
+  - id: track_corner_90d_type_01_30x30m_quad_free_obs
+    category: 0
+    prefab: {fileID: 7599908097705747875, guid: ac0f6076afd4dde4f82fd5097f69adc9, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_fence_line_type_01_15m_free_obs
+    category: 0
+    prefab: {fileID: 8483781631078631208, guid: 87e0acbd6ddf7814097e377d5a5c716d, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_fence_line_type_01_red_block_1_5m_free_obs
+    category: 0
+    prefab: {fileID: 8121123564845872179, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_fence_line_type_01_white_block_1_5m_free_obs
+    category: 0
+    prefab: {fileID: 7160418957281086936, guid: 484e95a1def424c4b9f1ad821e0c226a, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_line_type_01_15m_free_obs
+    category: 0
+    prefab: {fileID: 2927259199662858590, guid: 1060f28bab45ab94eb490830df68466e, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_line_type_01_30m_free_obs
+    category: 0
+    prefab: {fileID: 950377666402935899, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: track_line_type_01_start_finish_15m_free_obs
+    category: 0
+    prefab: {fileID: 8049907621329533821, guid: 419b5557461398443a4b99d9496015fc, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: arch_01_free_obs
+    category: 0
+    prefab: {fileID: 1890588548742467344, guid: 63f7e3a5ea486a9438b4cd3142c7dc92, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: arch_banner_finish_free_obs
+    category: 0
+    prefab: {fileID: 1518565137030333058, guid: c7bebf8ce7ad3264abbb7ed6a6953153, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: arch_for_banner_free_obs
+    category: 0
+    prefab: {fileID: 120340297762815318, guid: 27f69fe37e0c8c44f97be1aba8f406cd, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: arrow_01_free_obs
+    category: 0
+    prefab: {fileID: 416277419122025030, guid: b2de576461b3e6349bb43cd827e123ed, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: arrow_02_free_obs
+    category: 0
+    prefab: {fileID: 7973876806277416522, guid: 9c94a8e4ef130f449b9ac967b05bda92, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: barrier_free_obs
+    category: 0
+    prefab: {fileID: 8552901019017533310, guid: f26c4802677a5194091851e89ded1f3a, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: cone_free_obs
+    category: 0
+    prefab: {fileID: 579533310182082935, guid: b6e6982b772a1bc46b88d93db630bee4, type: 3}
+    gridOverride: 10
+    heightOverride: 0
+    tiltOverride: 0
+  - id: fence_concrete_free_obs
+    category: 0
+    prefab: {fileID: 1026222739917526287, guid: 7f98c8176bfca7347b11006aac2c90ce, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: flag_free_obs
+    category: 0
+    prefab: {fileID: 5786231827547346392, guid: 2e1e65078fb46104b990555c32488a27, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: pole_light_free_obs
+    category: 0
+    prefab: {fileID: 2912363649260157466, guid: 5a8f39913d8079645914b07628ae2049, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: sign_free_obs
+    category: 0
+    prefab: {fileID: 6156632962304447296, guid: fca05fc86b15f0d4da25ed7793db4384, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: tire_free_obs
+    category: 0
+    prefab: {fileID: 4373798459345739174, guid: 0a9f73a18c612c34a9773c0dd0fae0ab, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: traffic_light_free_obs
+    category: 0
+    prefab: {fileID: 5956726397970703479, guid: 99c5fe0ab7d0f8045a119a49343475d2, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0
+  - id: tribune_free_obs
+    category: 0
+    prefab: {fileID: 6257927510389581197, guid: d83bf5421fa587548b541193382273ea, type: 3}
+    gridOverride: 0
+    heightOverride: 0
+    tiltOverride: 0

@@ -1,0 +1,9 @@
+RUNTIME AUTHORING VALIDATION: PASSED
+Placed: 1 track + 1 prop
+Saved: timestamped track/prop JSON pair
+Cleared: runtime roots
+Reloaded: 1 track + 1 prop
+Scene left blank and ready for Play mode authoring
+Validation track: C:/Users/prema/AppData/LocalLow/DefaultCompany/TrackLayoutToolDemo\TrackBuilderSaves\runtime_authoring_validation_20260630_153215_810.track.json
+Validation props: C:/Users/prema/AppData/LocalLow/DefaultCompany/TrackLayoutToolDemo\TrackBuilderSaves\runtime_authoring_validation_20260630_153215_810.props.json
+Runtime save folder: C:/Users/prema/AppData/LocalLow/DefaultCompany/TrackLayoutToolDemo\TrackBuilderSaves

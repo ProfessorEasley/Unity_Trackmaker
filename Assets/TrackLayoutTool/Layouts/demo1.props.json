@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "layoutName": "demo1",
+    "trackFile": "demo1.track.json",
+    "props": [
+        {
+            "pieceId": "prop_traffic_light",
+            "position": {
+                "x": 30.0,
+                "y": 2.5799999237060549,
+                "z": 38.459999084472659
+            },
+            "rotationEuler": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        }
+    ]
+}
