@@ -27,7 +27,9 @@ namespace SimpleTrackBuilder.Editor
         // Off by default: quantizing a surface hit by a height step that does not match the geometry
         // (e.g. step 1 on a 0.2-thick road) would drag the piece back down to y = 0.
         [SerializeField] private bool snapY;
-        [SerializeField] private bool surfaceSnap = true;
+        // Off by default: surface snap picks against every renderer, so a ground plane (which sits under
+        // the cursor almost everywhere) would win every time and silently override Plane Y.
+        [SerializeField] private bool surfaceSnap;
         [SerializeField] private float placementHeight;
         [SerializeField] private float rotationStep = 90f;
         [SerializeField] private float tiltStep = 15f;
@@ -150,6 +152,7 @@ namespace SimpleTrackBuilder.Editor
             tiltStep = Mathf.Max(1f, EditorGUILayout.FloatField("Tilt step", tiltStep));
             EditorGUILayout.EndHorizontal();
 
+            EditorGUI.BeginChangeCheck();
             EditorGUILayout.BeginHorizontal();
             surfaceSnap = GUILayout.Toggle(surfaceSnap, "Surface snap", EditorStyles.miniButton);
             snapY = GUILayout.Toggle(snapY, "Quantize Y", EditorStyles.miniButton);
@@ -161,6 +164,18 @@ namespace SimpleTrackBuilder.Editor
             if (GUILayout.Button("+", GUILayout.Width(24))) NudgePlane(1);
             GUILayout.Label($"Level {CurrentLevel()}", EditorStyles.miniLabel, GUILayout.Width(60));
             EditorGUILayout.EndHorizontal();
+            if (EditorGUI.EndChangeCheck())
+            {
+                // Otherwise the ghost keeps sitting at the old height until the mouse happens to move.
+                SceneView.RepaintAll();
+            }
+
+            // Which control actually decides Y is the single most confusing thing in this window, so say it.
+            EditorGUILayout.HelpBox(
+                surfaceSnap
+                    ? "Height source: SURFACE under the cursor. Pieces land on existing geometry (including the ground), so Plane Y is used ONLY where nothing is under the cursor. Turn this off to build at Plane Y."
+                    : "Height source: PLANE Y. Pieces land at this height; use +/- or PgUp/PgDn in the Scene view to change levels. Turn on Surface snap to drop pieces onto existing geometry instead.",
+                MessageType.None);
 
             List<TrackPieceCatalogEntry> choices = GetChoices();
             if (choices.Count == 0)
@@ -356,7 +371,10 @@ namespace SimpleTrackBuilder.Editor
         {
             float grid = GridFor(entry);
 
-            // Prefer real geometry under the cursor so you can build on top of what you just placed.
+            // Surface snap is opt-in, and it is a HEIGHT SOURCE, not an add-on: when it is on, the
+            // geometry under the cursor decides Y and Plane Y only covers empty space. When it is off,
+            // Plane Y is authoritative. Defaulting it on made Plane Y look broken, because the ground
+            // plane is under the cursor almost everywhere and always answered y = 0.
             if (surfaceSnap && TrySurfacePoint(evt, out Vector3 surfacePoint))
             {
                 // The Y came from real geometry, so it is already meaningful. Only quantize it if the
