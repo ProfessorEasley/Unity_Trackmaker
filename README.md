@@ -262,15 +262,3 @@ in edit mode afterwards.
 ```
 
 Transforms are relative to `PREFAB_LAYOUT`.
-
-Older files — `schemaVersion` 1 or absent, written before this package — used the field names
-`position`, `rotationEuler` and `scale`, in world space. They still load: the tool detects the older
-version and reads them through their original field names. Position and rotation are converted into
-the root's local space, so pieces land at the same **position and orientation** they were saved at
-regardless of where the root is now. Scale is carried across unchanged and is therefore interpreted
-as root-relative, so under a scaled root a converted layout comes in scaled to match.
-
-The original file is never modified. Saving after a conversion writes a *new* file to
-`Assets/PrefabBuilder/Layouts/<layout name>.layout.json` in the current format. The window tells you
-when a file was converted and where a save will go. A file claiming a *newer* schema version than
-this build understands prompts before loading.
