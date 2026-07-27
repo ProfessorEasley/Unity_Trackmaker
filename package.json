@@ -1,0 +1,18 @@
+{
+  "name": "com.prefabbuilder.tool",
+  "version": "1.0.0",
+  "displayName": "Prefab Builder",
+  "description": "Editor tool for building a reusable prefab palette, placing prefabs on a configurable 3D grid in the Scene view, and saving/loading the placed layout as JSON.",
+  "unity": "2022.3",
+  "license": "MIT",
+  "keywords": [
+    "editor",
+    "level design",
+    "prefab",
+    "layout",
+    "grid"
+  ],
+  "author": {
+    "name": "Premankur Banerjee"
+  }
+}

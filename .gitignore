@@ -1,4 +1,6 @@
-# Unity generated folders
+# This repository is a Unity package, not a Unity project: it contains only source and .meta files.
+# Unity's generated folders are ignored in case the package is ever cloned inside a project.
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -8,7 +10,7 @@
 [Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
 
-# Visual Studio / Rider / editor files
+# IDE / build files
 .vs/
 .idea/
 *.csproj
@@ -19,12 +21,16 @@
 *.pidb
 *.booproj
 *.svd
+*.unityproj
 
-# Unity generated crash/debug output
+# Unity crash/debug output
 sysinfo.txt
 *.stackdump
+crashlytics-build.properties
 
 # OS files
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# NOTE: .meta files are deliberately NOT ignored. Unity requires them.
